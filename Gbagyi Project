@@ -1,0 +1,40 @@
+Group 07 Gbagyi Indigenous Language AI Benchmark
+
+This Pull Request contains the complete Group 07 Gbagyi submission for CSC 406 Assignment 1.
+
+Deliverables
+
+- Gbagyi raw corpus in JSONL format
+- Cleaned and tokenized Gbagyi corpus
+- Custom Unicode-aware tokenizer
+- Gbagyi stop-word analysis
+- Zipf's Law rank-frequency analysis
+- Unigram and Bigram language models
+- Add-1/Laplace smoothing
+- Perplexity evaluation against the instructor-provided unseen Gbagyi test set
+- Jupyter Notebook
+- Python implementation
+- Group report
+- Zipf rank-frequency visualization
+
+Final Corpus Metrics
+
+- Final sentences: 22,127
+- Vocabulary: 12,798
+- Zipf exponent (s): 1.402137
+- Zipf R²: 0.979136
+- Bigram perplexity: 1400.802620
+- Exact unseen-test sentence overlap: 0
+- Obvious English contamination: 0
+
+Data Provenance
+
+The corpus was collected programmatically from authentic publicly accessible Gbagyi-language sources using Python requests and BeautifulSoup, with provenance documented in the notebook/report.
+
+Reproducibility
+
+The implementation uses the assignment-approved Python dependencies and implements the required preprocessing, Zipf analysis, and Bigram language model from scratch.
+
+Integrity
+
+The instructor's unseen test file was not used as training data and was not modified.
